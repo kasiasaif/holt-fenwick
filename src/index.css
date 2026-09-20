@@ -212,6 +212,7 @@ h3 {
   position: absolute;
   inset: 0;
   background: var(--btn-fill);
+  border-radius: inherit;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -864,9 +865,13 @@ h3 {
   .mobile-panel a.btn {
     margin-top: 20px;
     font-family: var(--sans);
-    font-size: 0.78rem;
-    border-bottom: 0;
+    font-size: 0.7rem;
+    border: 1px solid rgba(212, 175, 55, 0.55);
+    border-radius: 999px;
+    border-bottom-color: rgba(212, 175, 55, 0.55);
     justify-content: center;
+    min-height: 52px;
+    padding: 0 28px;
   }
 
   .stats,
