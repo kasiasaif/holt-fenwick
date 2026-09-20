@@ -18,13 +18,16 @@ export default function News() {
 
       <section className="section">
         <div className="wrap news-list tall">
-          {news.map((item) => (
-            <article key={item.title}>
-              <p className="eyebrow">{item.date}</p>
-              <h2>{item.title}</h2>
-              <p>{item.excerpt}</p>
-            </article>
-          ))}
+            {news.map((item) => (
+              <article key={item.title}>
+                <img src={item.image} alt="" />
+                <div className="card-body">
+                  <p className="eyebrow">{item.date}</p>
+                  <h2>{item.title}</h2>
+                  <p>{item.excerpt}</p>
+                </div>
+              </article>
+            ))}
         </div>
       </section>
     </>

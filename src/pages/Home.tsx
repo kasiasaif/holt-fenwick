@@ -151,9 +151,12 @@ export default function Home() {
           <div className="news-list">
             {news.map((item) => (
               <article key={item.title}>
-                <p className="eyebrow">{item.date}</p>
-                <h3>{item.title}</h3>
-                <p>{item.excerpt}</p>
+                <img src={item.image} alt="" />
+                <div className="card-body">
+                  <p className="eyebrow">{item.date}</p>
+                  <h3>{item.title}</h3>
+                  <p>{item.excerpt}</p>
+                </div>
               </article>
             ))}
           </div>

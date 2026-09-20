@@ -14,7 +14,7 @@ function ScrollToTop() {
 function hideBrokenImage(event: Event) {
   const target = event.target
   if (!(target instanceof HTMLImageElement)) return
-  target.closest('.hero, .project-card, .sector-visual, figure, .media')?.classList.add('no-img')
+  target.closest('.hero, .project-card, .sector-visual, figure, .media, .news-list article, .people-grid li, .role-list article')?.classList.add('no-img')
   target.remove()
 }
 

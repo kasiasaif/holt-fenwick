@@ -73,14 +73,17 @@ export default function About() {
           <ul className="people-grid">
             {people.map((person) => (
               <li key={person.name}>
-                <h3>{person.name}</h3>
-                <p>{person.role}</p>
-                <p>
-                  <a href={`mailto:${person.email}`}>{person.email}</a>
-                </p>
-                <p>
-                  <a href={`tel:${person.phone.replace(/\s/g, '')}`}>{person.phone}</a>
-                </p>
+                <img src={person.image} alt="" />
+                <div className="card-body">
+                  <h3>{person.name}</h3>
+                  <p>{person.role}</p>
+                  <p>
+                    <a href={`mailto:${person.email}`}>{person.email}</a>
+                  </p>
+                  <p>
+                    <a href={`tel:${person.phone.replace(/\s/g, '')}`}>{person.phone}</a>
+                  </p>
+                </div>
               </li>
             ))}
           </ul>

@@ -25,6 +25,7 @@ export default function Careers() {
         <div className="wrap role-list">
           {roles.map((role) => (
             <article key={role.title}>
+              <img src={role.image} alt="" />
               <div>
                 <p className="eyebrow">
                   {role.place} · {role.type}

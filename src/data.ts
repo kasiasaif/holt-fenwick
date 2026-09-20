@@ -167,24 +167,32 @@ export const people = [
     role: 'Chair',
     email: 'mara.holt@holtfenwick.example',
     phone: '01632 960210',
+    image:
+      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Ellis Fenwick',
     role: 'Managing director',
     email: 'ellis.fenwick@holtfenwick.example',
     phone: '01632 960211',
+    image:
+      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Nia Crowe',
     role: 'Operations',
     email: 'nia.crowe@holtfenwick.example',
     phone: '01632 960212',
+    image:
+      'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Bram Ellison',
     role: 'Commercial',
     email: 'bram.ellison@holtfenwick.example',
     phone: '01632 960213',
+    image:
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
   },
 ]
 
@@ -225,18 +233,24 @@ export const news = [
     title: 'Apprentices run a mock tender on a live college brief',
     excerpt:
       'Twelve apprentices spent a week pricing a teaching block, then presented to the yard rather than a hotel conference room.',
+    image:
+      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80',
   },
   {
     date: '2 August 2026',
     title: 'Riverside Health Hub reaches dry envelope',
     excerpt:
       'The Preston clinic is weathertight. Fit-out starts once term-time traffic on the adjoining road eases.',
+    image:
+      'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1000&q=80',
   },
   {
     date: '21 July 2026',
     title: 'A new timber store opens at the Leeds yard',
     excerpt:
       'Offcuts now have a roof. The aim is less skip waste and fewer last-minute runs for the same section twice.',
+    image:
+      'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1000&q=80',
   },
 ]
 
@@ -246,17 +260,23 @@ export const roles = [
     place: 'North',
     type: 'Permanent',
     note: 'A live education job, then a healthcare follow-on. You will hold the daily brief, not a laptop far from the gate.',
+    image:
+      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
   },
   {
     title: 'Quantity surveyor',
     place: 'Leeds',
     type: 'Permanent',
     note: 'Packages, variations, and a commercial meeting that still mentions the building.',
+    image:
+      'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
   },
   {
     title: 'Graduate site engineer',
     place: 'Midlands',
     type: 'Training',
     note: 'Setting out, as-builts, and two days a week with a mentor who still walks the slab.',
+    image:
+      'https://images.unsplash.com/photo-1581094794329-adc411b6981b?auto=format&fit=crop&w=800&q=80',
   },
 ]
